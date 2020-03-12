@@ -3,9 +3,9 @@ A Βot that runs automatically and plays for you
 
 # Requirements
 To run this script you need to have the following packages:
-..* [Selenium](https://selenium-python.readthedocs.io/)
-..* [pytesseract](https://pypi.org/project/pytesseract/)
-..* [Pillow](https://pillow.readthedocs.io/en/stable/installation.html)
+..*[Selenium](https://selenium-python.readthedocs.io/)
+..*[pytesseract](https://pypi.org/project/pytesseract/)
+..*[Pillow](https://pillow.readthedocs.io/en/stable/installation.html)
 
 ```pip install selenium```
 ```pip install pytesseract```
