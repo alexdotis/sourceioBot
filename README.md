@@ -4,11 +4,15 @@ A Βot that runs automatically and plays for you
 # Requirements
 To run this script you need to have the following packages:
 ..*[Selenium](https://selenium-python.readthedocs.io/)
+
 ..*[pytesseract](https://pypi.org/project/pytesseract/)
+
 ..*[Pillow](https://pillow.readthedocs.io/en/stable/installation.html)
 
 ```pip install selenium```
+
 ```pip install pytesseract```
+
 ```pip install Pillow```
 
 For selenium you need to download [chromedriver.exe](https://chromedriver.chromium.org/)
@@ -21,7 +25,9 @@ Also, you will need the **tesseract.exe**
 
 If you don't have tesseract executable in your PATH, open the ```extract_images.py``` and put the full path of the **tesseract.exe** in the variable **TESSERACT_EXECUTABLE_PATH**  
 ```TESSERACT_EXECUTABLE_PATH = r'<full_path_to_your_tesseract_executable>``` 
+
 In my case is 
+
 ```TESSERACT_EXECUTABLE_PATH = r'C:\Program Files\Tesseract-OCR\tesseract.exe```
 
 
