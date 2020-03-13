@@ -9,7 +9,7 @@ from recognition import extract_images
 extract_images.start()
 
 #CHOMEDRIVER_PATH = "r'<full_path_to_your_chromedriver.exe>
-CHOMEDRIVER_PATH = r"D:\downloads\chromedriver.exe"
+CHOMEDRIVER_PATH = None
 
 return_values = {"ammount": '$("#window-my-coinamount").text()',
                  "bot_net": '$("#shop-bot-net-value").text()',
