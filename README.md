@@ -40,8 +40,8 @@ In my case is
 # How to use
 
 After you have done the above, put your username in the variable **USERNAME** in ```sourceioBot.py``` in the end of code and run it.
-It will stops when all images downloaded.
-It has 100% for image recognition but, just in case check in the **wordlist.txt** if some words are missing and fill them.
+It will stop when all images downloaded.
+It has 100% image recognition but, just in case check in the **wordlist.txt** if some words are missing and fill them.
 Run it again! 
 In the game open **My Computer**
 Enjoy!
