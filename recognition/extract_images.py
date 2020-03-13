@@ -13,7 +13,7 @@ order = {"e": 62, "m": 66, "h": 55}
 
 # If you don't have tesseract executable in your PATH, include the following:
 # TESSERACT_EXECUTABLE_PATH = r'<full_path_to_your_tesseract_executable>
-TESSERACT_EXECUTABLE_PATH = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+TESSERACT_EXECUTABLE_PATH = None
 # In my case is r'C:\Program Files\Tesseract-OCR\tesseract.exe
 
 __all__ = ("start",)
