@@ -5,7 +5,7 @@ A Βot that runs automatically and plays for you
 
 To run this script you need to have the following packages:
 
-*[Selenium](https://selenium-python.readthedocs.io/)
+[*Selenium](https://selenium-python.readthedocs.io/)
 
 [pytesseract](https://pypi.org/project/pytesseract/)
 
