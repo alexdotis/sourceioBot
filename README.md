@@ -43,6 +43,7 @@ In my case is
 
 After you have done the above, 
 In your terminal just type ```python3 sourceioBot.py --username <some username> -S -U``` 
+
 **Note** s0urceio is updating the images order everyday. `-U` is for update.
 
 It will stop when all images downloaded.
