@@ -47,8 +47,11 @@ In your terminal just type ```python3 sourceioBot.py --username <some username> 
 **Note:** s0urceio is updating the images order everyday. `-U` is for update.
 
 It will start when all images downloaded.
+
 It has 100% image recognition
+
 In the game open **My Computer**
+
 Enjoy!
 
 
