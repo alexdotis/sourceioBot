@@ -42,6 +42,7 @@ In my case is
 # How to use
 
 After you have done the above, 
+
 In your terminal just type ```python3 sourceioBot.py --username <some username> -S -U``` 
 
 **Note:** s0urceio is updating the images order everyday. `-U` is for update.
