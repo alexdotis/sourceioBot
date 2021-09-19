@@ -91,14 +91,15 @@ class Recognition:
             str: Word of Image
         """
         img = self.edit_image()
+        if TESSERACT_EXECUTABLE_PATH is not None:
+            pytesseract.pytesseract.tesseract_cmd = TESSERACT_EXECUTABLE_PATH
         fetch_word = pytesseract.image_to_string(img).strip()
         ratio, word = max(
             [(SequenceMatcher(None, fetch_word, w).ratio(), w) for w in ALL_WORDS])
         while ratio <= 0.75:
             x, _ = size = (200, 100)
             img = self.edit_image(size)
-            if TESSERACT_EXECUTABLE_PATH is not None:
-                pytesseract.pytesseract.tesseract_cmd = TESSERACT_EXECUTABLE_PATH
+            
             fetch_word = pytesseract.image_to_string(img).strip()
             ratio, word = max(
                 [(SequenceMatcher(None, fetch_word, w).ratio(), w) for w in ALL_WORDS])
