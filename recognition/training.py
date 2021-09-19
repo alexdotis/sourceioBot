@@ -99,7 +99,6 @@ class Recognition:
         while ratio <= 0.75:
             x, _ = size = (200, 100)
             img = self.edit_image(size)
-            
             fetch_word = pytesseract.image_to_string(img).strip()
             ratio, word = max(
                 [(SequenceMatcher(None, fetch_word, w).ratio(), w) for w in ALL_WORDS])
