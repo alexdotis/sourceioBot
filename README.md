@@ -55,3 +55,7 @@ In the game open **My Computer**
 Enjoy!
 
 
+#Screenshot
+
+![Alt text](https://github.com/alexdotis/sourceioBot/blob/master/Screenshot3.png)
+
